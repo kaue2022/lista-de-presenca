@@ -1,23 +1,22 @@
 
-# Formulário de Cadastro com CustomTkinter
+# Formulário de Cadastro de lista de presença com CustomTkinter
 
-Este projeto consiste em um formulário de cadastro desenvolvido com a biblioteca CustomTkinter em Python. A aplicação permite o registro de informações básicas do usuário, como nome, idade, e-mail e senha. Os dados inseridos são validados e salvos em um arquivo `.txt` para simular um pequeno banco de dados local.
+Este projeto consiste em um formulário de cadastro desenvolvido com a biblioteca CustomTkinter em Python. A aplicação permite o registro de informações básicas do usuário, como nome, e-mail e senha. Os dados inseridos são validados e salvos em um arquivo .csv para simular um pequeno banco de dados local.
 
 ## Funcionalidades
 
 - Interface gráfica moderna com CustomTkinter
 - Campos com validação de entrada
-- Verificação de senhas coincidentes
 - Mensagens de erro e sucesso no cadastro
-- Salvamento dos dados em um arquivo .txt
-- Estrutura preparada para futura integração com `.csv` ou banco de dados SQLite
+- Salvamento dos dados em um arquivo .csv
+- Estrutura preparada para futura integração com .csv ou banco de dados SQLite
 
 ## Tecnologias utilizadas
 
 - Python 3.10+
 - CustomTkinter
 - datetime (módulo interno)
-- Manipulação de arquivos .txt
+- Manipulação de arquivos .csv
 
 ## Como executar
 
@@ -28,7 +27,7 @@ Este projeto consiste em um formulário de cadastro desenvolvido com a bibliotec
    pip install customtkinter
 
 3. Execute o arquivo principal:
-   python nome_do_arquivo.py
+   python lista_de_presença.py
 
 
 ## Melhorias futuras
